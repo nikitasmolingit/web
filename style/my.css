@@ -1,0 +1,62 @@
+
+	h1#test1 {
+		background: red;
+	}
+	p {
+		background: #ffffa0 !important;
+		color: green !important;
+		font-size: 20px !important;
+		text-align: center;
+	}
+	.test1{
+		background: blue;
+	}
+	nav
+	{
+		font-size: 30px;
+		font-weight: ;
+	}
+	h1{
+		text-align: center;
+	}
+	body
+	{
+		background: blueviolet;
+	}
+	a:hover
+	{
+		color: red;
+	}
+	a:active
+	{
+		font-size: 50px;
+		color: yellow;
+	}
+	a:link
+	{
+		color: pink;
+		font-size: 10px;
+	}
+	a:visited
+	{
+		color: black;
+		font-size: 60px;
+	}
+	p:first-letter{
+		font-size: 30px;
+		color: green;
+	}
+	.test1:before{
+		content: "sfdbiutgeuj";
+	}
+	.test1:after{
+		content: "end";
+	}
+	::selection
+	{
+		color: black;
+		background: green;
+	}
+	img{
+		width: 500px;
+	}
