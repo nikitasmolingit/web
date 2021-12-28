@@ -1,59 +1,38 @@
-code {
-	font-family:"Courier New" , "Courier" , monospace;
-	color: #6a2cce;
-	font-size: 20px;
+.nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    z-index: 100;
 }
 
-h1
-{
-	color: #F5C683;
-	font-size: 40px;
-	width: 1500px;
-	margin-left: auto;
-	margin-right: auto;
+.nav__link {
+    display: block;
+    color: aquamarine;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: serif;
 }
 
-h2
-{
-	color: #C084F5;
+.nav__item {
+    float: right;
 }
 
-img
-{
-
-	margin-left: 150px;
-	float: left;
-	margin-bottom: 250px;
+.nav__link:hover {
+    background-color: darkslategrey;
 }
 
-h3
+.bd
 {
-	color: #F5B653;
+    background-color: darkslategrey;
 }
 
-ol
+.imgg
 {
-	color: #C084F5	
-}
-
-article
-{
-	color: #C084F5;
-}
-
-body
-{
-	font-family: "Furore";
-	background: #39A862;
-}
-
-
-
-nav
-{
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	color: greenyellow;
-	font-size: 30px;
+    box-shadow: 10px 5px 5px  #333;
 }
