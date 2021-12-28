@@ -1,4 +1,59 @@
 code {
 	font-family:"Courier New" , "Courier" , monospace;
 	color: #6a2cce;
+	font-size: 20px;
+}
+
+h1
+{
+	color: #F5C683;
+	font-size: 40px;
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2
+{
+	color: #C084F5;
+}
+
+img
+{
+
+	margin-left: 150px;
+	float: left;
+	margin-bottom: 250px;
+}
+
+h3
+{
+	color: #F5B653;
+}
+
+ol
+{
+	color: #C084F5	
+}
+
+article
+{
+	color: #C084F5;
+}
+
+body
+{
+	font-family: "Furore";
+	background: #39A862;
+}
+
+
+
+nav
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	color: greenyellow;
+	font-size: 30px;
 }
