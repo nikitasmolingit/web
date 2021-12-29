@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav__body {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: #333;
+    z-index: 100;
+}
+
+.nav__link {
+    display: block;
+    color: aquamarine;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: serif;
+}
+
+.nav__item {
+    float: right;
+}
+
+.nav__link:hover {
+    background-color: darkslategrey;
+}
