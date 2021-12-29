@@ -30,3 +30,9 @@
 .nav__link:hover {
     background-color: darkslategrey;
 }
+
+@media screen and (max-width: 900px) {
+    .nav__link {
+        padding: 3vw 3vw;
+    }
+}

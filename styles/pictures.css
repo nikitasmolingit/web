@@ -1,0 +1,32 @@
+.pictures__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(247px, 1fr));
+    grid-gap: 25px;
+    list-style-type: none;
+}
+
+.pictures__figure {
+    max-height: 500px;
+    overflow: hidden;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+}
+
+.pictures__img {
+    width: 100%;
+}
+
+.pictures__text-zone {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+}
+
+.pictures__text {
+    color: white;
+    padding: 8px;
+    font-size: 17px;
+    text-align: center;
+}
