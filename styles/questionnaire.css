@@ -1,0 +1,29 @@
+.questionnaire__place{
+    display: flex;
+    justify-content: space-around;
+}
+.questionnaire__result {
+    display: flex;
+    justify-content: space-around;
+}
+
+.questionnaire__head {
+    text-align: center;
+}
+
+.questionnaire__table {
+    color: rgb(255, 255, 255);
+    word-break: break-all;
+}
+
+@media screen and (max-width: 900px) {
+    .questionnaire__place {
+        display: grid;
+        justify-content: center;
+    }
+
+    .questionnaire__result {
+        justify-content: left;
+        padding-top: 20px;
+    }
+}
