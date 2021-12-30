@@ -1,25 +1,24 @@
 .footer {
     display: flex;
+    justify-content: space-between;
     background-color: #333;
+    color: aquamarine;
 }
 
 .footer__body {
+    display: flex;
+    justify-content: space-between;
+    font-family: serif;
     width: 100%;
     padding: 15px;
 }
 
 .footer__text {
-    display: flex;
     justify-content: left;
-    font-family: serif;
-    color: aquamarine;
     font-size: 1.2rem;
 }
 
 .footer__script {
-    display: flex;
     justify-content: right;
-    font-family: serif;
-    color: aquamarine;
-    padding-top: 5px;
+    font-size: 1.2rem;
 }
