@@ -1,3 +1,7 @@
+.pictures {
+    padding: 0;
+}
+
 .pictures__list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(247px, 1fr));

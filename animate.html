@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/info.css">
     <script src="js/script.js"></script>
+    <script src="js/network.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="js/jquery-3.6.0.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -29,10 +31,18 @@
     </nav>
 </header>
 <main class="main">
-    <h1>Андрей Бегелов и черный квадрат Макаревича</h1>
-    <article>
-        <h2>Тут будет пример анимации на js</h2>
-    </article>
+    <h1 class="text-center">Комментарии:</h1>
+    <div id="loadName">
+        <img class="rounded mx-auto d-block" id="preloader" src="photos/load.gif" style="height: 50px; width: 50px;" alt="...">
+    </div>
+    <table class="table questionnaire__table" style="color: rgb(255, 255, 255);">
+        <thead>
+        <tr id="comments_field_head">
+        </tr>
+        </thead>
+        <tbody id="comments_field">
+        </tbody>
+    </table>
 </main>
 <footer class="footer">
     <div class="footer__body">
